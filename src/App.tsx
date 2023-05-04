@@ -20,7 +20,7 @@ function App() {
        <Hello firstName='Ilan' lastName='Vaks' />
        <Form/>
         {/* @ts-ignore */}
-        {serverData && serverData.map(eachdog => <p>{eachDog.name} - {eachDog.age}</p>)}
+        {serverData && serverData.map(eachDog => <p>{eachDog.name} - {eachDog.age}</p>)}
       </header>
     </div>
   );
