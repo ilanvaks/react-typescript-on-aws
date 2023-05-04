@@ -8,7 +8,7 @@ function App() {
   const [serverData, setServerData] = React.useState([])
 
   React.useEffect(() => {
-    fetch("http://35.174.154.56:4000")
+    fetch("http://35.174.154.56:4000/")
     .then(res => res.json())
     .then(data => setServerData(data))
     .catch(err => console.error(err))
